@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    --body-background-color: #08121f;
+    --text-color: hsl(0, 0%, 100%);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: url("images/backgrond-texture.png") var(--body-background-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0;
+}
+
+p {
+    font-weight: bolder;
+    font-size: x-large;
+    color: var(--text-color);
+}
+
+.name {
+    color: hsl(0, 76%, 60%);
+}
+
+.button-container {
+    margin: 15px 0 0 0;
+}
+
+.button {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1.2px solid hsl(352, 76%, 60%);
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: hsl(352, 76%, 60%);
+}
