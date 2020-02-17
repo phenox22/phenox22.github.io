@@ -27,7 +27,7 @@ main {
 
 p {
     font-weight: bolder;
-    font-size: x-large;
+    font-size: 65px;
     color: var(--text-color);
 }
 
@@ -36,20 +36,20 @@ p {
 }
 
 .button-container {
-    margin: 15px 0 0 0;
+    margin: 45px 0 0 0;
 }
 
 .button {
     text-decoration: none;
-    padding: 5px 10px;
-    margin: 0 5px;
-    border: 1.2px solid hsl(352, 76%, 60%);
-    border-radius: 3px;
+    padding: 15px 45px;
+    margin: 0 15px;
+    border: 2.5px solid hsl(352, 68%, 49%);
+    border-radius: 5px;
     transition-duration: 0.3s;
     color: aliceblue;
     font-weight: bold;
 }
 
 .button:hover {
-    background-color: hsl(352, 76%, 60%);
+    background-color: hsl(352, 68%, 49%);
 }
