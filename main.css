@@ -35,13 +35,6 @@ p {
     color: hsl(0, 76%, 60%);
 }
 
-li {
-    margin: 15px 0 10px 15px;
-    list-style: none;
-    font-size: x-large;
-    font-weight: bolder;
-} 
-
 .project {
     margin: 55px 0 75px 0;
 }
