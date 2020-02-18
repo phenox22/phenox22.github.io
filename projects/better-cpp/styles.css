@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body {
+    height: 100vh;
+    width: auto;
+    background-color: hsl(240, 66%, 66%);
+    display: flex;
+}
+
+a {
+    text-decoration: underline;
+    color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+    text-decoration: none;
+    transition-duration: 0.15s;
+}
+
+.center {
+    align-self: center;
+    margin: 0 auto;
+
+}
+
+.server-logo {
+    width: 128px;
+}
+
+.server-name {
+    color: #fff;
+    font-size: 10rem;
+}
+
+.invite {
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: hsl(248, 53%, 58%);
+}
+
+.invite:hover {
+    background-color: hsl(248, 53%, 38%); 
+}
+
+.link {
+    font-size: large;
+    margin: 0 10px;
+}
