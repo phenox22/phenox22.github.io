@@ -35,6 +35,17 @@ p {
     color: hsl(0, 76%, 60%);
 }
 
+li {
+    margin: 15px 0 10px 15px;
+    list-style: none;
+    font-size: x-large;
+    font-weight: bolder;
+} 
+
+.project {
+    margin: 55px 0 75px 0;
+}
+
 .button-container {
     margin: 45px 0 0 0;
 }
@@ -42,7 +53,7 @@ p {
 .button {
     text-decoration: none;
     padding: 15px 45px;
-    margin: 0 15px;
+    margin: 10px 15px;  
     border: 2.5px solid hsl(352, 68%, 49%);
     border-radius: 5px;
     transition-duration: 0.3s;

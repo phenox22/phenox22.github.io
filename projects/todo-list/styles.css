@@ -1,0 +1,9 @@
+.task-button{
+    border-radius: 50%;
+    padding: 7px;
+    display: inline;
+}
+.task-text{
+    display: inline;
+    padding: 7px 0 0 5px;
+}
