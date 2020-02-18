@@ -42,14 +42,29 @@ a:hover {
     padding: 10px 20px;
     text-decoration: none;
     display: inline-block;
-    background-color: hsl(248, 53%, 58%);
+    background-color: hsl(248, 53%, 38%);
+    font-size: x-large;
+
 }
 
 .invite:hover {
-    background-color: hsl(248, 53%, 38%); 
+    background-color: hsl(248, 53%, 58%); 
 }
 
 .link {
     font-size: large;
     margin: 0 10px;
+}
+
+.rules {
+    color: #fff;
+    font-size: x-large;
+}
+
+.channel-text {
+    color: blueviolet;
+}
+
+.rule-header {
+    font-size: 5em;
 }
