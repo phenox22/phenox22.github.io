@@ -3,8 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 10px;
     --body-background-color: #030a13;
     --text-color: hsl(0, 0%, 100%);
+    --text-font-size: 5rem;
+    --button-font-size: 2.5rem;
 }
 
 html {
@@ -25,18 +28,27 @@ main {
     margin: auto 0;
 }
 
+.main-intro {
+    padding: 5px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
 p {
     font-weight: bolder;
-    font-size: 65px;
+    font-size: var(--text-font-size);
     color: var(--text-color);
 }
 
 .name {
+    font-size: var(--text-font-size);
     color: hsl(0, 76%, 60%);
 }
 
 .project {
-    margin: 55px 0 75px 0;
+    margin: 30px 0 55px 0;
 }
 
 .button-container {
@@ -51,9 +63,18 @@ p {
     border-radius: 5px;
     transition-duration: 0.3s;
     color: aliceblue;
-    font-weight: bold;
+    font-size: var(--button-font-size);
+    display: inline-block;
 }
 
 .button:hover {
     background-color: hsl(352, 68%, 49%);
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .button {
+        font-size: 1.5rem;
+    }
+    
+  }
