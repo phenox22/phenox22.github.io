@@ -23,13 +23,14 @@ a:hover {
 }
 
 .center {
-    align-self: center;
-    margin: 0 auto;
+    margin: auto;
+    flex-direction: row;
 
 }
 
 .server-logo {
     width: 128px;
+    display: inline-block;
 }
 
 .server-name {
