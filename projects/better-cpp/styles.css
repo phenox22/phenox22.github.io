@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-size: 10px;
 }
 
 body {
@@ -56,15 +55,29 @@ a:hover {
     margin: 0 10px;
 }
 
-.rules {
+.container {
+    background-color: hsl(240, 54%, 36%);
     color: #fff;
-    font-size: x-large;
+    width: 50vw;
+    padding: 20px 50px;
+    margin: auto;
 }
 
-.channel-text {
-    color: blueviolet;
+.description {
+    color: #fff;
+    font-style: italic;
+    margin: 5px 0 10px 0;
+    font-size: larger;
 }
 
-.rule-header {
-    font-size: 5em;
+.container li {
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.new-section {
+    border: 2px solid hsl(241, 73%, 49%);
+    margin: 20px;
+    line-height: 50px;
+    padding: 5px 20px;
 }
