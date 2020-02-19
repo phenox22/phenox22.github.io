@@ -1,6 +1,9 @@
+body {
+    background-color: blanchedalmond;
+}
 .task-button{
     border-radius: 50%;
-    padding: 7px;
+    padding: 10px;
     display: inline;
 }
 .task-text{
